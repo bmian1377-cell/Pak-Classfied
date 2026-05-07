@@ -1,0 +1,73 @@
+.contact-hero-section {
+    padding-top: 100px; 
+    padding-bottom: 120px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/bg.2.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.address-section-offset {
+    margin-top: -80px; 
+    position: relative;
+    z-index: 50;
+}
+
+.contact-info-card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    background: #ffffff;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+}
+
+.contact-icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #00bf63;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+
+.contact-form-card {
+    background-color: #1a2429;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/bg.2.avif');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    border-radius: 20px;
+}
+
+
+.contact-input {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+    padding: 12px !important;
+}
+
+.contact-input::placeholder {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.contact-input:focus {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #00bf63 !important;
+    box-shadow: none !important;
+}
+
+.btn-contact-submit {
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 15px;
+}

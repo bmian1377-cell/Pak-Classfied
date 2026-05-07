@@ -1,0 +1,102 @@
+.post-ad-modal-content {
+    background-color: #111111 !important; 
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.post-ad-header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/bg.2.avif');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px solid #00bf63 !important;
+    padding: 20px 30px !important;
+}
+
+.post-ad-form .form-control, 
+.post-ad-form .form-select {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #ffffff !important; 
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.post-ad-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 0.85rem;
+}
+
+.post-ad-form .form-control::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
+.post-ad-form .form-control::-moz-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
+.post-ad-form .form-control:-ms-input-placeholder { color: rgba(255, 255, 255, 0.5) !important; }
+
+
+.post-ad-form .form-control:focus, 
+.post-ad-form .form-select:focus {
+    border-color: #00bf63 !important;
+    background-color: #222 !important;
+    box-shadow: 0 0 10px rgba(0, 191, 99, 0.2) !important;
+    outline: none;
+}
+
+.post-ad-form .form-label {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #00bf63;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+.form-section-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #888;
+    margin: 25px 0 15px 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.form-section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #333;
+    margin-left: 15px;
+}
+
+
+.btn-submit-ad-premium {
+    background-color: #00bf63 !important;
+    color: #000000 !important;
+    font-weight: 900 !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0, 191, 99, 0.3);
+}
+
+.btn-submit-ad-premium:hover {
+    background-color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+.error-text-small {
+    font-size: 0.75rem;
+    color: #ff4d4d;
+    font-weight: 500;
+    margin-top: 5px;
+    display: block;
+}
+
+.btn-close {
+    filter: invert(1) brightness(200%);
+}

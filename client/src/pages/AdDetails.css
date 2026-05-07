@@ -1,0 +1,165 @@
+.ad-details-wrapper {
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+
+.premium-carousel {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    background-color: #000;
+}
+.carousel-img-wrapper {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: radial-gradient(circle, #333 0%, #000 100%);
+}
+
+.car-info-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    padding: 30px;
+    margin-top: 25px;
+}
+
+.price-tag-big {
+    font-size: 2.2rem;
+    color: #00bf63;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.quick-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.quick-info-box {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quick-info-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e6f9f0;
+    color: #00bf63;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.features-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #00bf63;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.sticky-owner-sidebar {
+    position: sticky;
+    top: 100px; 
+    z-index: 10;
+}
+
+.owner-profile-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    overflow: hidden;
+    text-align: center;
+}
+
+.owner-card-header {
+    background: linear-gradient(135deg, #00bf63 0%, #008f4a 100%);
+    height: 80px;
+}
+
+.owner-avatar-wrapper {
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+.owner-avatar {
+    width: 110px;
+    height: 110px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+
+.verified-badge {
+    background-color: #e6f9f0;
+    color: #00bf63;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-info-list {
+    text-align: left;
+    margin-top: 25px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px dashed #eee;
+}
+.contact-item:last-child {
+    border-bottom: none;
+}
+.contact-icon {
+    color: #00bf63;
+    font-size: 1.2rem;
+    width: 25px;
+}
+
+.btn-contact-seller {
+    background-color: #00bf63;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.btn-contact-seller:hover {
+    background-color: #00994f;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 191, 99, 0.3);
+}
+
+@media (max-width: 991px) {
+    .carousel-img-wrapper { height: 300px; }
+    .price-tag-big { font-size: 1.8rem; }
+    .sticky-owner-sidebar { position: static; margin-top: 30px; }
+}

@@ -1,0 +1,69 @@
+.about-page-wrapper { background-color: #ffffff; }
+
+.about-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url('/bg.2.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0;
+    color: white;
+    position: relative; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+.about-logo-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    opacity: 0.06; 
+    pointer-events: none; 
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.wm-pak {
+    background-color: #00bf63;
+    color: #000;
+    font-weight: 900;
+    font-size: 8rem; 
+    padding: 5px 25px;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.wm-classified {
+    color: #fff;
+    font-weight: 300;
+    font-size: 8rem; 
+    letter-spacing: 3px;
+}
+
+
+.about-hero-content {
+    position: relative;
+    z-index: 10; 
+}
+
+
+.about-img-item {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+
+.img-offset-down { margin-top: 50px; }
+.img-offset-up { margin-top: -50px; }
+
+@media (max-width: 991px) {
+    .about-logo-watermark { display: none; } 
+    .img-offset-down, .img-offset-up { margin-top: 0; }
+}
